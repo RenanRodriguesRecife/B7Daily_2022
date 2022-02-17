@@ -58,6 +58,8 @@ header{
      outline: none;
      color: #fff;
      font-size: 14px;
+     width: 300px;
+     padding: 0 10px;
 }
 
 .heroArea .leftside .form button{
