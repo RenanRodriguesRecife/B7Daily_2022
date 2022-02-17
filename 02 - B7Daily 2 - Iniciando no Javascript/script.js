@@ -46,3 +46,13 @@ for(let i = 0; i < 10; i++){
 for(let i = 0; i < ingredientes.length; i++){
     console.log(ingredientes[i])
 }
+
+
+// Manipuando o DOM
+// document -> é a página html 
+// window -> é toda a janela do natagador {barra de endereços...} incluindo a página html
+
+document.getElementById('titulo').innerHTML = "titulo alterado"
+document.getElementsByClassName('Titulo')[0].innerHTML = "alguma coisa"
+console.log(document.querySelector('ul'))
+console.log(document.querySelectorAll('li'))
