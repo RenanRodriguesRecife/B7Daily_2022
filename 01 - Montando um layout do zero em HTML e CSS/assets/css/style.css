@@ -40,6 +40,24 @@ body{
     color: #999;
 }
 
+.heroArea .leftside .form input{
+     border: 1px solid rgba(255,255,255,0.4);
+     background:transparent;
+     height: 40px;
+     outline: none;
+     color: #fff;
+     font-size: 14px;
+}
+
+.heroArea .leftside .form button{
+    height: 40px;
+    border: 0;
+    background-color: #007187;
+    color: #fff;
+    font-size: 14px;
+    padding: 0 20px;
+}
+
 .heroArea .rightside{
     flex: 1;
     background-image: url('../img/hero.png');
