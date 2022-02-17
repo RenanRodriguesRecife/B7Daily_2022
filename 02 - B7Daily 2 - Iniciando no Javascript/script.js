@@ -33,7 +33,16 @@ let ingredientes = [
     "fjdkslaç",
     "jfdkslafjkas",
     "dfsa",
-    "fjdkslafçd"
+    "fjdkslafçd",
+    total
 ]
 
 console.log(ingredientes)
+
+for(let i = 0; i < 10; i++){
+    console.log("Executou!")
+}
+
+for(let i = 0; i < ingredientes.length; i++){
+    console.log(ingredientes[i])
+}
