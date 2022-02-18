@@ -72,6 +72,10 @@ header{
     cursor:pointer;
 }
 
+.heroArea .leftside .form button:hover{
+    opacity: 0.7;
+}
+
 .heroArea .leftside .techs{
     margin-bottom: 80px;
 }
