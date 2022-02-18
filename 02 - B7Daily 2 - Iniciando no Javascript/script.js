@@ -54,5 +54,13 @@ for(let i = 0; i < ingredientes.length; i++){
 
 document.getElementById('titulo').innerHTML = "titulo alterado"
 document.getElementsByClassName('Titulo')[0].innerHTML = "alguma coisa"
-console.log(document.querySelector('ul'))
+let ul = document.querySelector('ul')
 console.log(document.querySelectorAll('li'))
+
+
+for(let i = 0; i < ingredientes.length; i++)
+{
+    let liHtml = '<li>' + ingredientes[i] + '</li>';
+    
+     ul.innerHTML += liHtml;
+}
